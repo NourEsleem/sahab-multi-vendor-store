@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>search</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='search.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almarai">
+</head>
+
+<body>
+  <div class="hedar-liyn">
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="rasel-logo.png" width="140px" style="margin-left: 30px; margin-right: 140px; margin-top: 25px;">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown" style="width: 100%; margin-top: 25px;">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"></li>
+          <a class="nav-link " style="margin-top: 25px;">التصنيفات</a>
+          </li>
+        </ul>
+        <div class="left">
+          <button><i class="fa-solid fa-circle-plus"></i>سجل كمورد</button>
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>البحث</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+            <p>المفضلة</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-shop"></i>
+            <p>سلة المشتريات</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-circle-user"></i>
+            <p>تسجيل الدخول</p>
+          </div>
+        </div>
+  </nav>
+  <div class="search-block">
+    <div class="container">
+      <div class="form-group has-search" style="padding-top:3px;padding-bottom:9px;">
+        <span class="fa fa-search form-control-feedback" style="margin-top: 2px;"></span>
+        <input type="text" class="form-control" placeholder="البحث ..." id="search_items" autocomplete="off"
+          style="padding-right: 2.375rem; height: 55px;">
+      </div>
+    </div>
+  </div>
+  <div class="container pr-0 pl-0">
+    <div class="categories-block">
+      <div class="iytem">
+        <div class="iytems">
+          <div>
+            <img src="c0.png">
+            <p>الاثاث المنزلي</p>
+          </div>
+          <div>
+            <img src="c1.png">
+            <p>الاجهزة الكهربائية</p>
+          </div>
+          <div>
+            <img src="c2.png">
+            <p>صالة الافراح</p>
+          </div>
+          <div>
+            <img src="c3.png">
+            <p>بدل الزفاف</p>
+          </div>
+          <div>
+            <img src="c4.png">
+            <p>الكوافيرات</p>
+          </div>
+          <div>
+            <img src="c5.png">
+            <p>بطاقات الافراح</p>
+          </div>
+          <div>
+            <img src="c6.png">
+            <p>تزين الورد</p>
+          </div>
+          <div>
+            <img src="c7.png">
+            <p>تاجير الباصات</p>
+          </div>
+          <div>
+            <img src="c8.png">
+            <p>استديو التصوير</p>
+          </div>
+          <div>
+            <img src="c9.png">
+            <p>المطابخ</p>
+          </div>
+          <div>
+            <img src="c10.png">
+            <p>الفنادق</p>
+          </div>
+          <div>
+            <img src="c11.png">
+            <p>فنون استعراض</p>
+          </div>
+          <div>
+            <img src="c12.png">
+            <p>المسارح</p>
+          </div>
+          <div>
+            <img src="c13.png">
+            <p>بدل الرجال</p>
+          </div>
+          <div>
+            <img src="c14.png">
+            <p>حلويات الافراح</p>
+          </div>
+          <div>
+            <img src="c15.png">
+            <p>المفروشات</p>
+          </div>
+          <div>
+            <img src="c16.png">
+            <p>ادوات منزلية</p>
+          </div>
+          <div>
+            <img src="categories.png">
+            <p>كل التطبيقات</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-3 mb-3 w-100">
+    <img class="w-100 rounded" src="adv-search4.jpg" style="background-color: white;" alt="">
+  </div>
+  <div class="products-block pb-5 mt-4">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="d-flex">
+          <span>الترتيب حسب </span>
+          <div class="btn-group">
+            <button type="button " class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">الاقل سعرا</a></li>
+              <li><a class="dropdown-item" href="#">الاعلى سعرا</a></li>
+              <li><a class="dropdown-item" href="#">الاحدث</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">الاكثر خصومات</a></li>
+            </ul>
+          </div>
+          <div class="vr"></div>
+          <input type="text" placeholder="الاقل سعرا" class=" ms-1 me-2">الى
+          <input type="text" placeholder="الاعلى سعرا" class=" ms-1 me-2">
+        </div>
+        <div class="row">
+          <div class="col-md-9 pr-0 pl-0">
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 50px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg class="hover-red" viewBox="0 0 32 32" color="#696766" width="30" height="30" style>
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 0px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-3 mb-3 " style="padding-left:40px; ">
+              <img class="w-100 rounded" src="adv-home.jpg" style="background-color: white;" alt="">
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-3 mb-3 " style="padding-left:40px; ">
+              <img class="w-100 rounded" src="adv-wedding.jpg" style="background-color: white;" alt="">
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0"
+              style="max-width: 940px; margin-top: 10px;box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;">
+              <div class="row g-0 pr-0">
+                <div class="col-md-2">
+                  <label class="wishlist class=" w-1 mt-0 btn btn-light btn-outline-dark data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                            <label class="wishlist"
+                              style="position: absolute;left: 1rem;cursor: pointer; margin-top: 5px;">
+                          </div>
+                          <div class="modal-body">
+                            يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                              style="background-color: #7600d9;border-color: #7600d9;">سجل الدخول</button>
+                            <button type="button" class="btn btn-prmary"
+                              style="background-color: #7600d9;border-color: #7600d9; color:white;">تسجيل</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <svg viewBox="0 0 32 32" color="#696766" width="30" height="30">
+                      <defs>
+                        <path id="iconFavorit_svg__a"
+                          d="M6.997 1.998c-1.346 0-2.548.436-3.493 1.339-2.73 2.608-1.676 7.529 2.562 11.965 2.743 2.87 8.259 6.21 9.934 7.192 1.675-.982 7.193-4.323 9.933-7.192 4.24-4.436 5.292-9.357 2.563-11.965C25.784.746 20.94 1.997 16.72 6.382L16 7.13l-.72-.748c-2.75-2.857-5.766-4.384-8.283-4.384zM16 24.8l-.492-.28c-.303-.171-7.445-4.234-10.887-7.837-5.052-5.287-6.08-11.37-2.499-14.792C5.516-1.348 11.124-.343 16 4.281c4.875-4.624 10.485-5.63 13.878-2.39 3.58 3.421 2.553 9.505-2.499 14.792-3.442 3.603-10.584 7.666-10.887 7.838L16 24.8z">
+                        </path>
+                      </defs>
+                      <use fill="currentColor" xlink:href="#iconFavorit_svg__a" fill-rule="evenodd"
+                        transform="translate(0 4)"></use>
+                    </svg>
+                  </label>
+                  <img src="83098745_865228797320320_8855934933935370518_o-thumb.jpg"
+                    style="width: min-content;width: 150px; margin-top: 15px; margin-right: 12px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body ms-3">
+                    <h5 class="card-title"
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">صالات
+                      الافراح -صالة افراح</h5>
+                    <div style="display: flex!important;margin-bottom: -10px;">
+                      <p class="card-text color-dark ">صالة اللوتس</p>
+                      <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;">
+                        (صالةاللوتس للافراح)</p>
+                    </div>
+                    <p
+                      style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 5px; font-size:medium;font-size:15px;">
+                      من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                    <div class="">
+                      <span class="price" data-source="price">₪4605</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 ">
+                <div id="total_items" class="text-left mb-2 "
+                  style="text-align: left;margin-left: 30px;  font-family: 'Almarai';;color: rgb(105, 103, 102);">تم عرض
+                  50 صنف من 4267 صنف
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination" style="float: left; margin-top: 5px;">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#" style="margin-right: 15px;">86</a></li>
+                      <li class="page-item"><a class="page-link" href="#" style="margin-right: 15px; ">85</a></li>
+
+                      <li class=""><span class="ellipse clickable"
+                          style="background: none;border: none;border-radius: 0;box-shadow: none;font-weight: bold;margin-right: 20px;">…</span>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#" style="margin-right: 15px;">5</a></li>
+                      <li class="page-item"><a class="page-link" href="#" style="margin-right: 15px;">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#" style="margin-right: 15px; ">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#" style="margin-right: 15px; ">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#"
+                          style="margin-right: 15px;margin-left: 20px;background: #666;color: white;">1</a></li>
+                      <li class="page-item ">
+                        <a class="page-link active" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <dvi class="col-md-3 pt-3 pb-3 pl-0" style="margin-top: 15px; ">
+            <div class="card mb-5 border-0" style="margin-right: 10px; ">
+              <div class="items">
+                <div class="item">
+                  <div class="bg-light">
+                    <img src="7db108b78439315a53c31d89dabbb8a2-thumb.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                      <p class="card-text " style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 2px;">
+                        طاولة وسط-20026</p>
+                      <div class=" d-flex text-center">
+                        <p>1636<i class="fa-solid fa-shekel-sign" style="margin-left: 15px;"></i></p>
+                        <del>
+                          <p>1800<i class="fa-solid fa-shekel-sign"></i></p>
+                        </del>
+                      </div>
+                      <hr>
+                      <img src="9d6df2d239ec8471c5d76c70e90916f4-thumb.jpg" class="card-img-top bg=" alt="...">
+                      <div class="card-body text-center">
+                        <p class="card-text" style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 2px;">
+                          طاولةوسط-20016 20016</p>
+                        <p>1400<i class="fa-solid fa-shekel-sign" style="margin-left: 15px;"></i></p>
+                        <hr>
+                        <img src="f0e47607c547d8dbf5b55e139ba2ea3c-thumb.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          <p class="card-text"
+                            style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 2px;">فيديو سهرة الشباب
+                          </p>
+                          <p style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 2px;">( استديو غرام)
+                          </p>
+                          <div class=" d-flex text-center">
+                            <p>106<i class="fa-solid fa-shekel-sign" style="margin-left: 15px;"></i></p>
+                            <del>
+                              <p>110<i class="fa-solid fa-shekel-sign"></i></p>
+                            </del>
+                          </div>
+                          <hr>
+                          <img src="f262c98ac5644744353c289482ae6845-thumb.jpg" class="card-img-top" alt="...">
+                          <div class="card-body position-relative ">
+                            <p class="position-absolute"
+                              style="  right:0; top:0;font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 2px; font-size: large;">
+                              w-507</p>
+                            <p class="card-text text-nowrap mt-2"
+                              style="font-family: 'stc';color: rgb(105, 103, 102); margin-bottom: 2px; font-size: larger;">
+                              (سنتر اجمل عروس)</p>
+                            <div class="d-flex">
+                              <p>550<i class="fa-solid fa-shekel-sign" style="margin-left: 15px;"></i></p>
+                              <del>
+                                <p>610<i class="fa-solid fa-shekel-sign"></i></p>
+                              </del>
+                            </div>
+                            <hr>
+                          </div>
+                        </div>
+                      </div>
+          </dvi>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="card mt-3 border-0 border-bottom ">
+    <div class="bg text-center fw-bold pt-3">
+      <p>شركة ات هوم للاثاث العصري</p>
+    </div>
+    <div class="row g-0 ">
+      <div class="col-md-4">
+        <img src=ab0bc4b9440562bfaf2b1049b1aa5dda-thumb.jpg class="img-fluid rounded-start p-3 w-100">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body ms-3">
+          <p class="fw-bold mb-0">₪3900<del class="m-2">₪4200</del></p>
+          <p class="card-title text-muted mb-0 ">غرفة نوم اسطنبول - 2010058</p>
+          <p class="card-title text-muted "> ( شركة آت هوم للأثاث العصري ) </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mt-3 border-0 border-bottom ">
+
+    <div class="row g-0 ">
+      <div class="col-md-4">
+        <img src=ab0bc4b9440562bfaf2b1049b1aa5dda-thumb.jpg class="img-fluid rounded-start p-3 w-100">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body ms-3">
+          <p class="fw-bold mb-0">₪3900<del class="m-2">₪4200</del></p>
+          <p class="card-title text-muted mb-0 ">غرفة نوم اسطنبول - 2010058</p>
+          <p class="card-title text-muted "> ( شركة آت هوم للأثاث العصري ) </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mt-3 border-0 border-bottom ">
+
+    <div class="row g-0 ">
+      <div class="col-md-4">
+        <img src=ab0bc4b9440562bfaf2b1049b1aa5dda-thumb.jpg class="img-fluid rounded-start p-3 w-100">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body ms-3">
+          <p class="fw-bold mb-0">₪3900<del class="m-2">₪4200</del></p>
+          <p class="card-title text-muted mb-0 ">غرفة نوم اسطنبول - 2010058</p>
+          <p class="card-title text-muted "> ( شركة آت هوم للأثاث العصري ) </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mt-3 border-0 border-bottom ">
+
+    <div class="row g-0 ">
+      <div class="col-md-4">
+        <img src=ab0bc4b9440562bfaf2b1049b1aa5dda-thumb.jpg class="img-fluid rounded-start p-3 w-100">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body ms-3">
+          <p class="fw-bold mb-0">₪3900<del class="m-2">₪4200</del></p>
+          <p class="card-title text-muted mb-0 ">غرفة نوم اسطنبول - 2010058</p>
+          <p class="card-title text-muted "> ( شركة آت هوم للأثاث العصري ) </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="adv-callcenter.jpg" style="margin-top: 2px;">
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="container mt-3 mb-3">
+    <div class="contact-us-image mt-2 ">
+      <img class="d-none d-sm-block"
+        src="https://accord.ps/Modules/Website/Resources/assets/images/offers/call-center.jpg?vid=2021120901"
+        style="border-radius: 5px;">
+      <img class="d-block d-sm-none w-100"
+        src="https://accord.ps/Modules/Website/Resources/assets/images/mobile/contactusmobile.jpg"
+        style="border-radius: 5px;">
+    </div>
+  </div>
+  <div class="hedar-liyn mb-3 mt-1">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-xl-4">
+        <h5 class="footer-contacts__title">للاتصال بنا </h5>
+        <p class="footer-contacts__text"> يسرنا تواصلك معنا من خلال أي من القنوات المتاحة.</p>
+        <div class="row">
+          <div class="col-6">
+            <dl>
+              <dt> أرقام التواصل</dt>
+              <dd>1700400600</dd>
+            </dl>
+          </div>
+          <div class="col-6">
+            <dt>البريد الإلكتروني</dt>
+            <dd>info@accord.ps</dd>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <dt>العنوان</dt>
+            <dd>فلسطين، غزة، مقابل البوابة الشمالية لجامعة الأزهر، مجمع الرؤيا التجاري</dd>
+          </div>
+          <div class="col-6">
+            <dt>ساعات العمل</dt>
+            <dd>السبت - الخميس<br>9:00 صباحاً - 3:30 مساءً</dd>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-xl-2">
+        <div class="row">
+          <div class="col-8">
+            <h5>المعلومات</h5>
+            <ul class="footer-list">
+              <li class="footer-item">من نحن؟</li>
+              <li class="footer-item">سياسة الخصوصية </li>
+              <li class="footer-item">للاتصال بنا </li>
+              <li class="footer-item">الأسئلة الشائعة</li>
+              <li class="footer-item">مورد جديد</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-xl-2">
+        <div class="row>">
+          <div class="col-8">
+            <h5>الملف الشخصي</h5>
+            <ul class="footer-list">
+              <li class="footer-item">التسجيل </li>
+              <li class="footer-item">تسجيل الدخول</li>
+              <li class="footer-item"> المفضلة </li>
+              <li class="footer-item">سلة المشتريات </li>
+              <li class="footer-item"> البحث</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-xl-4">
+        <div class="row">
+          <div class="col-8 whats w-100 ">
+            <h5 class="footer title">قائمة الواتس أب </h5>
+            <div class="footer-text">انضم إلى قائمة الواتس أب الخاصة بالمنصة للبقاء على إطلاع بأحدث الخصومات والعروض
+              الخاصة. </div>
+            <div class="d-flex">
+              <input type="text" placeholder="رقم الواتس اب ..."><button>الاشتراك</button>
+            </div>
+            <p>وسائل التواصل الإجتماعي</p>
+            <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="search.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+.cards-bar {
+    background-color: #f9f7f6;
+    background-size: cover;
+    width: 100%;
+}
+
+.cards-bar h1 {
+    font-family: "Almarai", serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-right: 150px;
+
+}
+
+.cards-bar .cards {
+    display: flex;
+    margin-right: 150px;
+    background-color: rgb(255, 0, 0);
+}
+
+.cards-bar .cards .card {
+    margin-left: 5%;
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.cards-bar .cards .card img {
+    width: 240px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cards-bar .cards .card button {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 160px;
+    background-color: lightgray;
+    border-radius: 5px;
+    color: rgb(105, 103, 102);
+    font-family: "Almarai", serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cards-bar .cards .card h2 {
+    text-align: right;
+    margin-right: 15px;
+    font-family: "Almarai", serif;
+    font-size: 20px;
+    color: rgb(105, 103, 102);
+}
+
+.cards-bar .cards .card h3 {
+    font-family: "Almarai", serif;
+    font-size: 20px;
+    color: rgb(105, 103, 102);
+}
+
+
+
+
+                       
+<footer class="site__footer">
+<div class="footer-line">
+    <hr class="colores">
+</div>
+<div class="site-footer">
+    <div class="site-footer__widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-4">
+                    <div class="site-footer__widget footer-contacts">
+                        <h5 class="footer-contacts__title">للاتصال بنا</h5>
+                        <div class="footer-contacts__text">
+                            يسرنا تواصلك معنا من خلال أي من القنوات المتاحة.
+                        </div>
+                        <address class="footer-contacts__contacts">
+                            <dl>
+                                <dt class="font-weight-bold">أرقام التواصل</dt>
+                                <dd dir="ltr">1700400600</dd>
+                                <!-- <dd dir="ltr">0592160090</dd> -->
+                            </dl>
+                            <dl>
+                                <dt class="font-weight-bold">البريد الإلكتروني</dt>
+                                <dd class="en"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="721b1c141d321311111d00165c0201">[email&#160;protected]</a></dd>
+                            </dl>
+                            <dl class="mt-2">
+                                <dt class="font-weight-bold">العنوان</dt>
+                                <dd>فلسطين، غزة، مقابل البوابة الشمالية لجامعة الأزهر، مجمع الرؤيا التجاري</dd>
+                            </dl>
+                            <dl class="mt-2">
+                                <dt class="font-weight-bold">ساعات العمل</dt>
+                                <dd>السبت - الخميس<br>9:00 صباحاً - 3:30 مساءً</dd>
+                            </dl>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="site-footer__widget footer-links">
+                        <h5 class="footer-links__title">المعلومات</h5>
+                        <ul class="footer-links__list">
+                            <li class="footer-links__item"><a href="https://accord.ps/adversting/%D8%B1%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-%D9%88%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AB%D9%82%D8%A9" class="footer-links__link"> نحمنن؟</a></li>
+                            <li class="footer-links__item"><a href="https://accord.ps/privacy-policy" class="footer-links__link">سياسة الخصوصية</a></li>
+                            <li class="footer-links__item"><a href="https://accord.ps/contact-us" class="footer-links__link">للاتصال بنا</a></li>
+                            <li class="footer-links__item"><a href="https://accord.ps/faqs" class="footer-links__link">الأسئلة الشائعة</a></li>
+                            <li class="footer-links__item"><a href="https://partner.accordpal.com" class="footer-links__link">مورد جديد</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="site-footer__widget footer-links">
+                        <h5 class="footer-links__title">الملف الشخصي</h5>
+                        <ul class="footer-links__list">
+                                                                            <li class="footer-links__item"><a href="https://accord.ps/register" class="footer-links__link">التسجيل</a></li>
+                                <li class="footer-links__item"><a href="https://accord.ps/login" class="footer-links__link">تسجيل الدخول</a></li>
+                                                                            <li class="footer-links__item"><a href="https://accord.ps/wishlist" class="footer-links__link">المفضلة</a></li>
+                            <li class="footer-links__item"><a href="https://accord.ps/cart" class="footer-links__link">سلة المشتريات</a></li>
+                            <li class="footer-links__item"><a href="https://accord.ps/search" class="footer-links__link">البحث</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="site-footer__widget footer-newsletter">
+                        <h5 class="footer-newsletter__title">قائمة الواتس أب</h5>
+                        <div class="footer-newsletter__text">
+                             والعروض الخاصة.
+                        </div>
+                        <form action="" class="footer-newsletter__form">
+                            <label class="sr-only" for="whatsapp_list_number">رقم الواتس أب</label>
+                            <input type="text" class="footer-newsletter__form-input" id="whatsapp_number" placeholder="رقم الواتس أب..." autocomplete="off">
+                            <button class="footer-newsletter__form-button" id="btn_subscribe_of_whatsapp_list_number">الاشتراك</button>
+                        </form>
+                        <div class="footer-newsletter__text footer-newsletter__text--social">
+                            وسائل التواصل الإجتماعي
+                        </div>
+                        <div class="footer-newsletter__social-links social-links">
+                            <ul class="social-links__list">
+                                <li class="social-links__item social-links__item--facebook"><a href="https://www.facebook.com/Acrdps" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-links__item social-links__item--instagram"><a href="https://www.instagram.com/acrdps" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer__bottom">
+        <div class="container">
+            <div class="site-footer__bottom-row">
+                <div class="site-footer__copyright en text-center">
+                    Powered by Accord - Accord Group for Marketing &amp; Trade
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>

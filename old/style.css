@@ -1,0 +1,552 @@
+.aa {
+    text-align: right;
+    margin-top: 22px;
+    margin-right: 10px;
+    display: inline;
+}
+
+.header-line {
+    height: 5px;
+    background: -webkit-linear-gradient(left, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    ;
+
+}
+
+body {
+    margin: 0px;
+    background-color: #f9f7f6;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.s {
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+
+}
+
+.q {
+    width: 45%;
+    height: 10px;
+    margin-top: 25px;
+    color: rgba(108, 105, 105, 0.706);
+    border: 0px;
+    user-select: none;
+
+
+}
+
+.uf {
+    color: rgb(115, 110, 110);
+}
+
+.d {
+    margin-top: 24px;
+    margin-right: 10px;
+    font-family: "Almarai", serif;
+    color: rgb(88, 86, 86);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.ss {
+    margin-top: 22px;
+    margin-right: 10px;
+    text-align: end;
+    color: rgb(105, 103, 102);
+
+}
+
+.ff {
+    margin-top: 22px;
+    margin-right: 10px;
+    font-family: "Almarai", serif;
+    text-align: end;
+    font-size: xx-small;
+    justify-content: center;
+    border: 0px;
+    border-radius: 7px;
+
+}
+
+.e {
+    font-size: xx-small;
+    font-family: "Almarai", serif;
+    justify-content: center;
+}
+
+button {
+    border: 0px;
+    background-color: #f9f7f6;
+    justify-content: center;
+    justify-self: center
+}
+
+.h {
+    text-align: center;
+    margin-top: 22px;
+    margin-right: 10px;
+    background-color: rgb(81, 185, 81);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 105px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+}
+
+.so {
+    display: flex;
+
+
+}
+
+.sp {
+
+    color: rgb(181, 0, 184);
+}
+
+.pic {
+    width: 100%;
+    height: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+nav {
+    margin-right: 50px;
+    margin-top: 5px;
+    font-family: "Almarai", serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+
+}
+
+.aa .visited {
+    color: black;
+}
+
+.na {
+    margin-right: 150px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.im {
+    display: inline-block;
+    border-radius: 7px;
+    width: 75%;
+
+}
+
+.bb {
+    margin-top: 20px;
+    width: 25%
+}
+
+.ma {
+    margin-right: 150px;
+
+}
+
+.ton {
+
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    color: rgb(105, 103, 102);
+    height: 40px;
+    width: 110px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+    margin-left: 7px;
+
+}
+
+#g {
+    font-family: "Almarai", serif;
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#u {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.x {
+    display: flex;
+    color: rgb(109, 109, 109);
+
+}
+
+.buttons {
+    display: flex;
+    height: 40px;
+    margin-top: 15px;
+
+
+}
+
+.but {
+    border-color: black;
+}
+
+h1 {
+    width: 500px;
+    font-family: "Almarai", serif;
+    color: rgb(25, 24, 24);
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.yal {
+    width: 600px;
+    font-family: "Almarai", serif;
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.di {
+    text-align: start;
+    padding: 7px;
+    height: 100px;
+    width: 700px;
+    border-top: 3px solid chocolate;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    color: rgb(109, 109, 109);
+    font-family: "Almarai", serif;
+    font-size: 12px;
+}
+
+h3 {
+    font-family: "Almarai", serif;
+    color: rgb(25, 24, 24);
+}
+
+thead,
+td {
+    border-bottom: 1px solid #ddd;
+    width: 700px;
+    height: 35px;
+    font-family: "Almarai", serif;
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+
+}
+
+.tr {
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 20px;
+    width: 700px;
+    border-top: 3px solid rgb(255, 187, 0);
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 7px;
+}
+
+.line {
+    color: lightsteelblue;
+}
+
+.pi {
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding: 7px;
+    height: 100px;
+    width: 700px;
+    border-top: 3px solid rgb(191, 113, 224);
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    color: rgb(109, 109, 109);
+    font-family: "Almarai", serif;
+    font-size: 12px;
+}
+
+.main {
+    display: flex;
+    padding: 3px;
+}
+
+.cards-bar {
+    height: 500px;
+    background-color: #f9f7f6;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.cards-bar .cards {
+
+    display: flex;
+    margin-right: 140px;
+}
+
+.cards-bar .cards .card {
+    margin-left: 5%;
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    height: 400px;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.cards-bar h1 {
+    font-family: "Almarai", serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-right: 150px;
+
+}
+
+.cards-bar .cards .card img {
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.cards-bar .cards .card button {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 160px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 5px;
+    color: rgb(105, 103, 102);
+    font-family: "Almarai", serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cards-bar .cards .card h2 {
+    text-align: right;
+    margin-right: 15px;
+    font-family: "Almarai", serif;
+    font-size: 18px;
+    color: rgb(105, 103, 102);
+}
+
+.cards-bar .cards .card h4 {
+    font-family: "Almarai", serif;
+    font-size: 14px;
+    color: rgb(105, 103, 102);
+}
+
+.prise {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.prise .p1 {
+    background-color: rgb(232, 231, 231);
+    border-radius: 5px;
+    margin-left: 3px;
+    text-decoration: line-through;
+}
+
+.prise p {
+    background-color: rgb(232, 231, 231);
+    border-radius: 5px;
+    margin-left: 3px;
+
+}
+
+.card .p2 {
+    font-family: "Almarai", serif;
+    font-size: 11px;
+    color: rgb(141, 138, 137);
+    margin-top: 0px;
+}
+
+.pic2 {
+    width: 100%;
+    height: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.header-line2 {
+    height: 10px;
+    background: -webkit-linear-gradient(left, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    ;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.contact h3 {
+    font-family: "Almarai", serif;
+    color: rgb(72, 71, 71);
+
+}
+
+.contact .p1 {
+    font-family: "Almarai", serif;
+    font-size: 16px;
+    color: rgb(141, 138, 137);
+}
+
+.cont-all {
+    display: flex;
+    font-family: "Almarai", serif;
+    font-size: 12px;
+    margin-top: 0px;
+    color: rgb(141, 138, 137);
+}
+
+.w p {
+    margin-left: 135px;
+}
+
+.ww p {
+    margin-left: 9px;
+}
+
+
+.info {
+    margin-left: 20px;
+    justify-content: right;
+}
+
+.info ul {
+    list-style-type: none;
+    font-family: "Almarai", serif;
+    font-size: 16px;
+    color: rgb(141, 138, 137);
+    text-align: right;
+}
+
+.info h3 {
+    font-family: "Almarai", serif;
+    color: rgb(72, 71, 71);
+    text-align: right;
+
+}
+
+.p-file {
+    margin-left: 20px;
+}
+
+.p-file ul {
+    list-style-type: none;
+    font-family: "Almarai", serif;
+    font-size: 16px;
+    color: rgb(141, 138, 137);
+    text-align: right;
+}
+
+.p-file h3 {
+    font-family: "Almarai", serif;
+    color: rgb(72, 71, 71);
+    text-align: right;
+}
+
+.whatsup h3 {
+    font-family: "Almarai", serif;
+    color: rgb(72, 71, 71);
+    text-align: right;
+}
+
+.whatsup p {
+    font-family: "Almarai", serif;
+    font-size: 16px;
+    color: rgb(141, 138, 137);
+}
+
+footer .footer-input {
+    border-radius: 5px;
+    border-color: rgba(210, 207, 207, 0.769);
+    border-style: ridge;
+    height: 25px;
+    width: 200px;
+    font-family: "Almarai", serif;
+    font-size: 14px;
+}
+
+footer button {
+    height: 25px;
+    width: 80px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: #7600d9;
+    font-family: "Almarai", serif;
+    font-size: 16px;
+}
+
+.tx p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    margin-left: 20px;
+}
+
+.icons .face {
+    margin-left: 20px;
+    background: #3c5a99;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+
+    margin-top: 5px;
+}
+
+.icons .insta {
+    background: #815dc7;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+
+    margin-top: 5px;
+}

@@ -1,0 +1,167 @@
+body {
+    margin: 0%
+}
+
+div.hedar-liyn,
+.footer-line {
+    height: 6px;
+    background: -moz-linear-gradient(left, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(left, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    /* W3C */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+}
+
+nav .left {
+    display: flex;
+}
+
+nav .left div {
+    margin-right: 15px;
+    text-align: center;
+}
+
+nav .left button {
+    background-color: rgb(81, 185, 81);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    padding-left: 10px;
+    width: 130px;
+    height: 30px;
+
+}
+
+nav .left .fa-circle-plus {
+    margin-left: 5px;
+}
+
+nav .left p {
+    margin: 3px;
+}
+
+.imge {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border-radius: 4px
+}
+
+.list-inline {
+
+    margin-top: 15px;
+}
+
+#h3,
+#h4 {
+    padding: 32px 24px;
+    border-radius: 2px 2px 4px 4px;
+    margin-bottom: 16px;
+    border-width: 5px 1px 1px;
+    border-color: rgb(189, 164, 164);
+    border-style: solid;
+    margin-top: 20px;
+
+}
+
+.footer-contacts__contacts {
+    font-size: 14px;
+    line-height: 20px;
+    list-style: none;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+address {
+
+    font-style: normal;
+    line-height: inherit;
+}
+
+.footer-list {
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: 15px;
+}
+
+.footer-list .footer-item {
+    padding-bottom: 5px;
+}
+
+.whats button {
+    color: white;
+    background-color: #7e57c6;
+    border: none;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: 5px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+
+.whats input {
+    height: 25px;
+    font-size: 15px;
+}
+
+.fa-facebook {
+    margin-left: 10px;
+    color: #3c5a99;
+    font-size: 35px;
+}
+
+.fa-instagram {
+    margin-left: 10px;
+    color: #7e57c6;
+    font-size: 35px;
+    background-color: white;
+}
+
+#h3 {
+    border-top: 3px solid chocolate;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    color: rgb(109, 109, 109);
+}
+
+.attributes {
+    border-top: 3px solid rgb(255, 187, 0);
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#h4 {
+    border-top: 3px solid rgb(191, 113, 224);
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    color: rgb(109, 109, 109);
+}
